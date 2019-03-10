@@ -1,0 +1,35 @@
+﻿  testallocator.cpp
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(87): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(80): note: 编译 类 模板 成员函数 "int *Allocator<int>::allocate(Allocator<int>::size_type)" 时
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(1501): note: 参见对正在编译的函数 模板 实例化“int *Allocator<int>::allocate(Allocator<int>::size_type)”的引用
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(1542): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,Allocator<int>>::_Resize<std::vector<int,Allocator<int>>::resize::<lambda_9231fe2eecedc44881b41b4d1b0527ed>>(const unsigned int,_Lambda)”的引用
+          with
+          [
+              _Lambda=std::vector<int,Allocator<int>>::resize::<lambda_9231fe2eecedc44881b41b4d1b0527ed>
+          ]
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(1542): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,Allocator<int>>::_Resize<std::vector<int,Allocator<int>>::resize::<lambda_9231fe2eecedc44881b41b4d1b0527ed>>(const unsigned int,_Lambda)”的引用
+          with
+          [
+              _Lambda=std::vector<int,Allocator<int>>::resize::<lambda_9231fe2eecedc44881b41b4d1b0527ed>
+          ]
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(1536): note: 编译 类 模板 成员函数 "void std::vector<int,Allocator<int>>::resize(const unsigned int)" 时
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\testallocator.cpp(32): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,Allocator<int>>::resize(const unsigned int)”的引用
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\testallocator.cpp(32): note: 参见对正在编译的 类 模板 实例化 "std::vector<int,Allocator<int>>" 的引用
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(105): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(97): note: 编译 类 模板 成员函数 "void Allocator<int>::deallocate(int *,Allocator<int>::size_type)" 时
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(1510): note: 参见对正在编译的函数 模板 实例化“void Allocator<int>::deallocate(int *,Allocator<int>::size_type)”的引用
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(131): warning C4018: “>=”: 有符号/无符号不匹配
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(129): note: 编译 类 模板 成员函数 "Allocator<int>::void_pointer Allocator<int>::mempoolnew(Allocator<int>::size_type,Allocator<int>::size_type &)" 时
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(115): note: 参见对正在编译的函数 模板 实例化“Allocator<int>::void_pointer Allocator<int>::mempoolnew(Allocator<int>::size_type,Allocator<int>::size_type &)”的引用
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(113): note: 编译 类 模板 成员函数 "void Allocator<int>::add(Allocator<int>::size_type,Allocator<int>::size_type)" 时
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(88): note: 参见对正在编译的函数 模板 实例化“void Allocator<int>::add(Allocator<int>::size_type,Allocator<int>::size_type)”的引用
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(80): note: 编译 类 模板 成员函数 "int *Allocator<int>::allocate(Allocator<int>::size_type)" 时
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(1501): note: 参见对正在编译的函数 模板 实例化“int *Allocator<int>::allocate(Allocator<int>::size_type)”的引用
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(140): warning C4244: “初始化”: 从“double”转换到“Allocator<int>::size_type”，可能丢失数据
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(140): warning C4244: “初始化”: 从“double”转换到“Allocator<Point2D>::size_type”，可能丢失数据
+  正在生成代码
+  129 of 275 functions (46.9%) were compiled, the rest were copied from previous compilation.
+    82 functions were new in current compilation
+    20 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  allocator.vcxproj -> C:\Users\63542\Documents\Visual Studio 2017\Projects\allocator\Release\allocator.exe

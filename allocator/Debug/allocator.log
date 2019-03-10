@@ -1,0 +1,48 @@
+﻿  testallocator.cpp
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(87): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(80): note: 编译 类 模板 成员函数 "std::vector<int,Allocator<int>> *Allocator<IntVec>::allocate(Allocator<IntVec>::size_type)" 时
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(1988): note: 参见对正在编译的函数 模板 实例化“std::vector<int,Allocator<int>> *Allocator<IntVec>::allocate(Allocator<IntVec>::size_type)”的引用
+  d:\vs\vc\tools\msvc\14.13.26128\include\xmemory0(751): note: 参见对正在编译的 类 模板 实例化 "Allocator<IntVec>" 的引用
+  d:\vs\vc\tools\msvc\14.13.26128\include\xmemory0(943): note: 参见对正在编译的 类 模板 实例化 "std::_Normal_allocator_traits<_Alloc>" 的引用
+          with
+          [
+              _Alloc=Allocator<IntVec>
+          ]
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(408): note: 参见对正在编译的 类 模板 实例化 "std::allocator_traits<_Alloc>" 的引用
+          with
+          [
+              _Alloc=Allocator<IntVec>
+          ]
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(453): note: 参见对正在编译的 类 模板 实例化 "std::_Vec_base_types<_Ty,_Alloc>" 的引用
+          with
+          [
+              _Ty=IntVec,
+              _Alloc=Allocator<IntVec>
+          ]
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(663): note: 参见对正在编译的 类 模板 实例化 "std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>" 的引用
+          with
+          [
+              _Ty=IntVec,
+              _Alloc=Allocator<IntVec>
+          ]
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\testallocator.cpp(28): note: 参见对正在编译的 类 模板 实例化 "std::vector<IntVec,Allocator<IntVec>>" 的引用
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(104): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(96): note: 编译 类 模板 成员函数 "void Allocator<IntVec>::deallocate(std::vector<int,Allocator<int>> *,Allocator<IntVec>::size_type)" 时
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(2017): note: 参见对正在编译的函数 模板 实例化“void Allocator<IntVec>::deallocate(std::vector<int,Allocator<int>> *,Allocator<IntVec>::size_type)”的引用
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(129): warning C4018: “>=”: 有符号/无符号不匹配
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(127): note: 编译 类 模板 成员函数 "Allocator<IntVec>::void_pointer Allocator<IntVec>::mempoolnew(Allocator<IntVec>::size_type,Allocator<IntVec>::size_type &)" 时
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(114): note: 参见对正在编译的函数 模板 实例化“Allocator<IntVec>::void_pointer Allocator<IntVec>::mempoolnew(Allocator<IntVec>::size_type,Allocator<IntVec>::size_type &)”的引用
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(112): note: 编译 类 模板 成员函数 "void Allocator<IntVec>::add(Allocator<IntVec>::size_type,Allocator<IntVec>::size_type)" 时
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(88): note: 参见对正在编译的函数 模板 实例化“void Allocator<IntVec>::add(Allocator<IntVec>::size_type,Allocator<IntVec>::size_type)”的引用
+  c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(80): note: 编译 类 模板 成员函数 "std::vector<int,Allocator<int>> *Allocator<IntVec>::allocate(Allocator<IntVec>::size_type)" 时
+  d:\vs\vc\tools\msvc\14.13.26128\include\vector(1988): note: 参见对正在编译的函数 模板 实例化“std::vector<int,Allocator<int>> *Allocator<IntVec>::allocate(Allocator<IntVec>::size_type)”的引用
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(138): warning C4244: “初始化”: 从“double”转换到“Allocator<IntVec>::size_type”，可能丢失数据
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(138): warning C4244: “初始化”: 从“double”转换到“Allocator<PointVec>::size_type”，可能丢失数据
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(138): warning C4244: “初始化”: 从“double”转换到“Allocator<int>::size_type”，可能丢失数据
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(138): warning C4244: “初始化”: 从“double”转换到“Allocator<U>::size_type”，可能丢失数据
+          with
+          [
+              U=std::_Container_proxy
+          ]
+c:\users\63542\documents\visual studio 2017\projects\allocator\allocator\allocator.hpp(138): warning C4244: “初始化”: 从“double”转换到“Allocator<Point2D>::size_type”，可能丢失数据
+  allocator.vcxproj -> C:\Users\63542\documents\visual studio 2017\Projects\allocator\Debug\allocator.exe
